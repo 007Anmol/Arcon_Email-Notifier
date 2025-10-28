@@ -1,0 +1,944 @@
+{
+  "Applications": [
+    {
+      "Name": "CI_MT_EnvironmentSetup",
+      "Version": "10.10.0",
+      "Microservices": [
+  {
+    "Name": "auth",
+    "PhysicalPath": null,
+    "Path": "D:\\Jenkins\\QA\\5XAPI\\CI_COMMONAPI\\COMMONAPI\\auth",
+    "Port": 80,
+    "BindingProtocol": "http",
+    "BindingIP": "*",
+    "ConfigFiles": []
+  },
+  {
+    "Name": "xsso",
+    "PhysicalPath": null,
+    "Path": "D:\\Jenkins\\QA\\5XAPI\\CI_COMMONAPI\\WorkspaceAPI\\SSO",
+    "Port": 80,
+    "BindingProtocol": "http",
+    "BindingIP": "*",
+    "ConfigFiles": []
+  },
+  {
+    "Name": "xaccess",
+    "PhysicalPath": null,
+    "Path": "D:\\Jenkins\\QA\\5XAPI\\CI_COMMONAPI\\WorkspaceAPI\\Login",
+    "Port": 80,
+    "BindingProtocol": "http",
+    "BindingIP": "*",
+    "ConfigFiles": []
+  },
+  {
+    "Name": "xauth",
+    "PhysicalPath": null,
+    "Path": "D:\\Jenkins\\QA\\5XAPI\\CI_COMMONAPI\\WorkspaceAPI\\Authentication",
+    "Port": 80,
+    "BindingProtocol": "http",
+    "BindingIP": "*",
+    "ConfigFiles": []
+  },
+  {
+    "Name": "xservice",
+    "PhysicalPath": null,
+    "Path": "D:\\Jenkins\\QA\\5XAPI\\CI_COMMONAPI\\WorkspaceAPI\\Access",
+    "Port": 80,
+    "BindingProtocol": "http",
+    "BindingIP": "*",
+    "ConfigFiles": []
+  },
+  {
+    "Name": "meta",
+    "PhysicalPath": null,
+    "Path": "D:\\Jenkins\\QA\\5XAPI\\CI_COMMONAPI\\WorkspaceAPI\\Meta",
+    "Port": 80,
+    "BindingProtocol": "http",
+    "BindingIP": "*",
+    "ConfigFiles": []
+  },
+  {
+    "Name": "AccessControlAPI",
+    "PhysicalPath": null,
+    "Path": "D:\\Jenkins\\QA\\5XAPI\\CI_COMMONAPI\\COMMONAPI\\AccessControlApi",
+    "Port": 80,
+    "BindingProtocol": "http",
+    "BindingIP": "*",
+    "ConfigFiles": []
+  },
+  {
+    "Name": "OnboardingAPI",
+    "PhysicalPath": null,
+    "Path": "D:\\Jenkins\\QA\\5XAPI\\CI_COMMONAPI\\CI_OnboardingAPI",
+    "Port": 80,
+    "BindingProtocol": "http",
+    "BindingIP": "*",
+    "ConfigFiles": []
+  },
+  {
+    "Name": "authentication",
+    "PhysicalPath": null,
+    "Path": "D:\\Jenkins\\QA\\5XAPI\\CI_COMMONAPI\\WorkFlowApi\\authentication",
+    "Port": 80,
+    "BindingProtocol": "http",
+    "BindingIP": "*",
+    "ConfigFiles": []
+  },
+  {
+    "Name": "delegation",
+    "PhysicalPath": null,
+    "Path": "D:\\Jenkins\\QA\\5XAPI\\CI_COMMONAPI\\WorkFlowApi\\delegation",
+    "Port": 80,
+    "BindingProtocol": "http",
+    "BindingIP": "*",
+    "ConfigFiles": []
+  },
+  {
+    "Name": "application",
+    "PhysicalPath": null,
+    "Path": "D:\\Jenkins\\QA\\5XAPI\\CI_COMMONAPI\\WorkFlowApi\\application",
+    "Port": 80,
+    "BindingProtocol": "http",
+    "BindingIP": "*",
+    "ConfigFiles": []
+  },
+  {
+    "Name": "event",
+    "PhysicalPath": null,
+    "Path": "D:\\Jenkins\\QA\\5XAPI\\CI_COMMONAPI\\WorkFlowApi\\event",
+    "Port": 80,
+    "BindingProtocol": "http",
+    "BindingIP": "*",
+    "ConfigFiles": []
+  },
+  {
+    "Name": "parameter",
+    "PhysicalPath": null,
+    "Path": "D:\\Jenkins\\QA\\5XAPI\\CI_COMMONAPI\\WorkFlowApi\\parameter",
+    "Port": 80,
+    "BindingProtocol": "http",
+    "BindingIP": "*",
+    "ConfigFiles": []
+  },
+  {
+    "Name": "workflow",
+    "PhysicalPath": null,
+    "Path": "D:\\Jenkins\\QA\\5XAPI\\CI_COMMONAPI\\WorkFlowApi\\workFlow",
+    "Port": 80,
+    "BindingProtocol": "http",
+    "BindingIP": "*",
+    "ConfigFiles": []
+  },
+  {
+    "Name": "level",
+    "PhysicalPath": null,
+    "Path": "D:\\Jenkins\\QA\\5XAPI\\CI_COMMONAPI\\WorkFlowApi\\level",
+    "Port": 80,
+    "BindingProtocol": "http",
+    "BindingIP": "*",
+    "ConfigFiles": []
+  },
+  {
+    "Name": "samlauthentication",
+    "PhysicalPath": null,
+    "Path": "D:\\Jenkins\\QA\\5XAPI\\CI_COMMONAPI\\WorkFlowApi\\samlauthentication",
+    "Port": 80,
+    "BindingProtocol": "http",
+    "BindingIP": "*",
+    "ConfigFiles": []
+  },
+  {
+    "Name": "asset",
+    "PhysicalPath": null,
+    "Path": "D:\\Jenkins\\QA\\5XAPI\\CI_COMMONAPI\\COMMONAPI\\asset",
+    "Port": 80,
+    "BindingProtocol": "http",
+    "BindingIP": "*",
+    "ConfigFiles": []
+  },
+  {
+    "Name": "reportees",
+    "PhysicalPath": null,
+    "Path": "D:\\Jenkins\\QA\\5XAPI\\CI_COMMONAPI\\COMMONAPI\\reportees",
+    "Port": 80,
+    "BindingProtocol": "http",
+    "BindingIP": "*",
+    "ConfigFiles": []
+  },
+  {
+    "Name": "request",
+    "PhysicalPath": null,
+    "Path": "D:\\Jenkins\\QA\\5XAPI\\CI_COMMONAPI\\COMMONAPI\\request",
+    "Port": 80,
+    "BindingProtocol": "http",
+    "BindingIP": "*",
+    "ConfigFiles": []
+  },
+  {
+    "Name": "Users",
+    "PhysicalPath": null,
+    "Path": "D:\\Jenkins\\QA\\5XAPI\\CI_COMMONAPI\\COMMONAPI\\users",
+    "Port": 80,
+    "BindingProtocol": "http",
+    "BindingIP": "*",
+    "ConfigFiles": []
+  },
+  {
+    "Name": "AdminAPI",
+    "PhysicalPath": null,
+    "Path": "D:\\Jenkins\\QA\\5XAPI\\CI_COMMONAPI\\AdminSettings\\AdminAPI",
+    "Port": 80,
+    "BindingProtocol": "http",
+    "BindingIP": "*",
+    "ConfigFiles": []
+  },
+  {
+    "Name": "AdminUI",
+    "PhysicalPath": null,
+    "Path": "D:\\Jenkins\\QA\\5XAPI\\CI_COMMONAPI\\AdminSettings\\AdminUI",
+    "Port": 80,
+    "BindingProtocol": "http",
+    "BindingIP": "*",
+    "ConfigFiles": []
+  },
+  {
+    "Name": "smDashboardApi",
+    "PhysicalPath": null,
+    "Path": "D:\\Jenkins\\QA\\5XAPI\\CI_COMMONAPI\\COMMONAPI\\smDashboardApi",
+    "Port": 80,
+    "BindingProtocol": "http",
+    "BindingIP": "*",
+    "ConfigFiles": []
+  },
+  {
+    "Name": "smLobsApi",
+    "PhysicalPath": null,
+    "Path": "D:\\Jenkins\\QA\\5XAPI\\CI_COMMONAPI\\COMMONAPI\\smLobsApi",
+    "Port": 80,
+    "BindingProtocol": "http",
+    "BindingIP": "*",
+    "ConfigFiles": []
+  },
+  {
+    "Name": "smRoleApi",
+    "PhysicalPath": null,
+    "Path": "D:\\Jenkins\\QA\\5XAPI\\CI_COMMONAPI\\COMMONAPI\\smRoleApi",
+    "Port": 80,
+    "BindingProtocol": "http",
+    "BindingIP": "*",
+    "ConfigFiles": []
+  },
+  {
+    "Name": "smServiceApi",
+    "PhysicalPath": null,
+    "Path": "D:\\Jenkins\\QA\\5XAPI\\CI_COMMONAPI\\COMMONAPI\\smServiceApi",
+    "Port": 80,
+    "BindingProtocol": "http",
+    "BindingIP": "*",
+    "ConfigFiles": []
+  },
+  {
+    "Name": "smServiceGroupApi",
+    "PhysicalPath": null,
+    "Path": "D:\\Jenkins\\QA\\5XAPI\\CI_COMMONAPI\\COMMONAPI\\smServiceGroupApi",
+    "Port": 80,
+    "BindingProtocol": "http",
+    "BindingIP": "*",
+    "ConfigFiles": []
+  },
+  {
+    "Name": "smTagApi",
+    "PhysicalPath": null,
+    "Path": "D:\\Jenkins\\QA\\5XAPI\\CI_COMMONAPI\\COMMONAPI\\smTagApi",
+    "Port": 80,
+    "BindingProtocol": "http",
+    "BindingIP": "*",
+    "ConfigFiles": []
+  },
+  {
+    "Name": "smUserApi",
+    "PhysicalPath": null,
+    "Path": "D:\\Jenkins\\QA\\5XAPI\\CI_COMMONAPI\\COMMONAPI\\smUserApi",
+    "Port": 80,
+    "BindingProtocol": "http",
+    "BindingIP": "*",
+    "ConfigFiles": []
+  },
+  {
+    "Name": "smUserGroupApi",
+    "PhysicalPath": null,
+    "Path": "D:\\Jenkins\\QA\\5XAPI\\CI_COMMONAPI\\COMMONAPI\\smUserGroupApi",
+    "Port": 80,
+    "BindingProtocol": "http",
+    "BindingIP": "*",
+    "ConfigFiles": []
+  },
+  {
+    "Name": "uagConfigureApi",
+    "PhysicalPath": null,
+    "Path": "D:\\Jenkins\\QA\\5XAPI\\CI_COMMONAPI\\COMMONAPI\\uagConfigureApi",
+    "Port": 80,
+    "BindingProtocol": "http",
+    "BindingIP": "*",
+    "ConfigFiles": []
+  },
+  {
+    "Name": "uagDashboardApi",
+    "PhysicalPath": null,
+    "Path": "D:\\Jenkins\\QA\\5XAPI\\CI_COMMONAPI\\COMMONAPI\\uagDashboardApi",
+    "Port": 80,
+    "BindingProtocol": "http",
+    "BindingIP": "*",
+    "ConfigFiles": []
+  },
+  {
+    "Name": "uagReportApi",
+    "PhysicalPath": null,
+    "Path": "D:\\Jenkins\\QA\\5XAPI\\CI_COMMONAPI\\API\\uagReportApi",
+    "Port": 80,
+    "BindingProtocol": "http",
+    "BindingIP": "*",
+    "ConfigFiles": []
+  },
+  {
+    "Name": "uagReviewApi",
+    "PhysicalPath": null,
+    "Path": "D:\\Jenkins\\QA\\5XAPI\\CI_COMMONAPI\\COMMONAPI\\uagReviewApi",
+    "Port": 80,
+    "BindingProtocol": "http",
+    "BindingIP": "*",
+    "ConfigFiles": []
+  },
+  {
+    "Name": "uagChallengeApi",
+    "PhysicalPath": null,
+    "Path": "D:\\Jenkins\\QA\\5XAPI\\CI_COMMONAPI\\COMMONAPI\\uagChallengeApi",
+    "Port": 80,
+    "BindingProtocol": "http",
+    "BindingIP": "*",
+    "ConfigFiles": []
+  },
+  {
+    "Name": "CustomCommand",
+    "PhysicalPath": null,
+    "Path": "D:\\Jenkins\\QA\\5XAPI\\CI_COMMONAPI\\COMMONAPI\\CustomCommand",
+    "Port": 80,
+    "BindingProtocol": "http",
+    "BindingIP": "*",
+    "ConfigFiles": []
+  },
+  {
+    "Name": "Dashboard",
+    "PhysicalPath": null,
+    "Path": "D:\\Jenkins\\QA\\5XAPI\\CI_COMMONAPI\\COMMONAPI\\XWDDashboard",
+    "Port": 80,
+    "BindingProtocol": "http",
+    "BindingIP": "*",
+    "ConfigFiles": []
+  },
+  {
+    "Name": "Dependency",
+    "PhysicalPath": null,
+    "Path": "D:\\Jenkins\\QA\\5XAPI\\CI_COMMONAPI\\COMMONAPI\\Dependency",
+    "Port": 80,
+    "BindingProtocol": "http",
+    "BindingIP": "*",
+    "ConfigFiles": []
+  },
+  {
+    "Name": "Envelope",
+    "PhysicalPath": null,
+    "Path": "D:\\Jenkins\\QA\\5XAPI\\CI_COMMONAPI\\COMMONAPI\\Envelope",
+    "Port": 80,
+    "BindingProtocol": "http",
+    "BindingIP": "*",
+    "ConfigFiles": []
+  },
+  {
+    "Name": "Policy",
+    "PhysicalPath": null,
+    "Path": "D:\\Jenkins\\QA\\5XAPI\\CI_COMMONAPI\\COMMONAPI\\Policy",
+    "Port": 80,
+    "BindingProtocol": "http",
+    "BindingIP": "*",
+    "ConfigFiles": []
+  },
+  {
+    "Name": "Rotate",
+    "PhysicalPath": null,
+    "Path": "D:\\Jenkins\\QA\\5XAPI\\CI_COMMONAPI\\COMMONAPI\\Rotate",
+    "Port": 80,
+    "BindingProtocol": "http",
+    "BindingIP": "*",
+    "ConfigFiles": []
+  },
+  {
+    "Name": "Vault",
+    "PhysicalPath": null,
+    "Path": "D:\\Jenkins\\QA\\5XAPI\\CI_COMMONAPI\\COMMONAPI\\Vault",
+    "Port": 80,
+    "BindingProtocol": "http",
+    "BindingIP": "*",
+    "ConfigFiles": []
+  },
+  {
+    "Name": "Downloads",
+    "PhysicalPath": null,
+    "Path": "D:\\Jenkins\\QA\\5XAPI\\CI_COMMONAPI\\COMMONAPI\\Downloads",
+    "Port": 80,
+    "BindingProtocol": "http",
+    "BindingIP": "*",
+    "ConfigFiles": []
+  },
+  {
+    "Name": "Logs",
+    "PhysicalPath": null,
+    "Path": "D:\\Jenkins\\QA\\5XAPI\\CI_COMMONAPI\\COMMONAPI\\Logs",
+    "Port": 80,
+    "BindingProtocol": "http",
+    "BindingIP": "*",
+    "ConfigFiles": []
+  },
+  {
+    "Name": "Metadata",
+    "PhysicalPath": null,
+    "Path": "D:\\Jenkins\\QA\\5XAPI\\CI_COMMONAPI\\COMMONAPI\\Metadata",
+    "Port": 80,
+    "BindingProtocol": "http",
+    "BindingIP": "*",
+    "ConfigFiles": []
+  },
+  {
+    "Name": "reconauto",
+    "PhysicalPath": null,
+    "Path": "D:\\Jenkins\\QA\\5XAPI\\CI_COMMONAPI\\COMMONAPI\\reconauto",
+    "Port": 80,
+    "BindingProtocol": "http",
+    "BindingIP": "*",
+    "ConfigFiles": []
+  },
+  {
+    "Name": "AWS",
+    "PhysicalPath": null,
+    "Path": "D:\\Jenkins\\QA\\5XAPI\\CI_COMMONAPI\\COMMONAPI\\AWS",
+    "Port": 80,
+    "BindingProtocol": "http",
+    "BindingIP": "*",
+    "ConfigFiles": []
+  },
+  {
+    "Name": "Azure",
+    "PhysicalPath": null,
+    "Path": "D:\\Jenkins\\QA\\5XAPI\\CI_COMMONAPI\\COMMONAPI\\Azure",
+    "Port": 80,
+    "BindingProtocol": "http",
+    "BindingIP": "*",
+    "ConfigFiles": []
+  },
+  {
+    "Name": "smLogsApi",
+    "PhysicalPath": null,
+    "Path": "D:\\Jenkins\\QA\\5XAPI\\CI_COMMONAPI\\COMMONAPI\\smLogsApi",
+    "Port": 80,
+    "BindingProtocol": "http",
+    "BindingIP": "*",
+    "ConfigFiles": []
+  },
+  {
+    "Name": "RTSM",
+    "PhysicalPath": null,
+    "Path": "D:\\Jenkins\\QA\\5XAPI\\CI_COMMONAPI\\COMMONAPI\\RTSM",
+    "Port": 80,
+    "BindingProtocol": "http",
+    "BindingIP": "*",
+    "ConfigFiles": []
+  },
+  {
+    "Name": "WorkflowUI",
+    "PhysicalPath": null,
+    "Path": "D:\\Jenkins\\QA\\5XAPI\\CI_COMMONAPI\\ARCONUI\\WorkflowUI",
+    "Port": 80,
+    "BindingProtocol": "http",
+    "BindingIP": "*",
+    "ConfigFiles": []
+  },
+  {
+    "Name": "AMPUI",
+    "PhysicalPath": null,
+    "Path": "D:\\Jenkins\\QA\\5XAPI\\CI_COMMONAPI\\ARCONUI\\AMPUI",
+    "Port": 80,
+    "BindingProtocol": "http",
+    "BindingIP": "*",
+    "ConfigFiles": []
+  },
+  {
+    "Name": "UagUi",
+    "PhysicalPath": null,
+    "Path": "D:\\Jenkins\\QA\\5XAPI\\CI_COMMONAPI\\ARCONUI\\UAGDEV_UI",
+    "Port": 80,
+    "BindingProtocol": "http",
+    "BindingIP": "*",
+    "ConfigFiles": []
+  },
+  {
+    "Name": "smWEBUI",
+    "PhysicalPath": null,
+    "Path": "D:\\Jenkins\\QA\\5XAPI\\CI_COMMONAPI\\ARCONUI\\WebSMUI",
+    "Port": 80,
+    "BindingProtocol": "http",
+    "BindingIP": "*",
+    "ConfigFiles": []
+  },
+  {
+    "Name": "xwdui",
+    "PhysicalPath": null,
+    "Path": "D:\\Jenkins\\QA\\5XAPI\\CI_COMMONAPI\\ARCONUI\\PasswordUI",
+    "Port": 80,
+    "BindingProtocol": "http",
+    "BindingIP": "*",
+    "ConfigFiles": []
+  },
+  {
+    "Name": "ArconVideoLogs",
+    "PhysicalPath": null,
+    "Path": "D:\\Jenkins\\QA\\5XAPI\\CI_COMMONAPI\\ARCONUI\\VideoLogsUI",
+    "Port": 80,
+    "BindingProtocol": "http",
+    "BindingIP": "*",
+    "ConfigFiles": []
+  },
+  {
+    "Name": "uagchallenge",
+    "PhysicalPath": null,
+    "Path": "D:\\Jenkins\\QA\\5XAPI\\CI_COMMONAPI\\ARCONUI\\CI_ChallengeUI",
+    "Port": 80,
+    "BindingProtocol": "http",
+    "BindingIP": "*",
+    "ConfigFiles": []
+  },
+  {
+    "Name": "AccessControlUI",
+    "PhysicalPath": null,
+    "Path": "D:\\Jenkins\\QA\\5XAPI\\CI_COMMONAPI\\ARCONUI\\AccesscontrolUI",
+    "Port": 80,
+    "BindingProtocol": "http",
+    "BindingIP": "*",
+    "ConfigFiles": []
+  },
+  {
+    "Name": "OnboardingUI",
+    "PhysicalPath": null,
+    "Path": "D:\\Jenkins\\QA\\5XAPI\\CI_COMMONAPI\\ARCONUI\\CI_Onboarding_UI",
+    "Port": 80,
+    "BindingProtocol": "http",
+    "BindingIP": "*",
+    "ConfigFiles": []
+  },
+  {
+    "Name": "ApplicationLogsApi",
+    "PhysicalPath": null,
+    "Path": "D:\\Jenkins\\QA\\5XAPI\\CI_COMMONAPI\\COMMONAPI\\ApplicationLogsApi",
+    "Port": 80,
+    "BindingProtocol": "http",
+    "BindingIP": "*",
+    "ConfigFiles": []
+  },
+  {
+    "Name": "ApplicationlogsUI",
+    "PhysicalPath": null,
+    "Path": "D:\\Jenkins\\QA\\5XAPI\\CI_COMMONAPI\\ARCONUI\\ApplicationlogsUI",
+    "Port": 80,
+    "BindingProtocol": "http",
+    "BindingIP": "*",
+    "ConfigFiles": []
+  },
+  {
+    "Name": "smOrchestrationApi",
+    "PhysicalPath": null,
+    "Path": "D:\\Jenkins\\QA\\5XAPI\\CI_COMMONAPI\\COMMONAPI\\smOrchestration",
+    "Port": 80,
+    "BindingProtocol": "http",
+    "BindingIP": "*",
+    "ConfigFiles": []
+  },
+  {
+    "Name": "AdminReports",
+    "PhysicalPath": null,
+    "Path": "D:\\Jenkins\\QA\\5XAPI\\CI_COMMONAPI\\API\\ReportsAPI",
+    "Port": 80,
+    "BindingProtocol": "http",
+    "BindingIP": "*",
+    "ConfigFiles": []
+  },
+  {
+    "Name": "Reports",
+    "PhysicalPath": null,
+    "Path": "D:\\Jenkins\\QA\\5XAPI\\CI_COMMONAPI\\API\\XWDReports",
+    "Port": 80,
+    "BindingProtocol": "http",
+    "BindingIP": "*",
+    "ConfigFiles": []
+  },
+  {
+    "Name": "ProvisionWebAPI",
+    "PhysicalPath": null,
+    "Path": "D:\\AllProject\\ProvisionWebAPI",
+    "Port": 80,
+    "BindingProtocol": "http",
+    "BindingIP": "*",
+    "ConfigFiles": []
+  },
+  {
+    "Name": "AdminReports/downloads",
+    "PhysicalPath": null,
+    "Path": "D:\\Jenkins\\QA\\5XAPI\\CI_COMMONAPI\\ReportsAPI\\downloads",
+    "Port": 80,
+    "BindingProtocol": "http",
+    "BindingIP": "*",
+    "ConfigFiles": []
+  },
+  {
+    "Name": "arconMsApi",
+    "PhysicalPath": null,
+    "Path": "D:\\Jenkins\\QA\\5XAPI\\CI_COMMONAPI\\COMMONAPI\\arconMsApi",
+    "Port": 80,
+    "BindingProtocol": "http",
+    "BindingIP": "*",
+    "ConfigFiles": []
+  },
+  {
+    "Name": "WebdtCore",
+    "PhysicalPath": null,
+    "Path": "D:\\Jenkins\\QA\\5XAPI\\CI_COMMONAPI\\COMMONAPI\\WebdtCore",
+    "Port": 80,
+    "BindingProtocol": "http",
+    "BindingIP": "*",
+    "ConfigFiles": []
+  },
+  {
+    "Name": "ConnectorApi",
+    "PhysicalPath": null,
+    "Path": "D:\\Jenkins\\QA\\5XAPI\\CI_COMMONAPI\\COMMONAPI\\ConnectorApi",
+    "Port": 80,
+    "BindingProtocol": "http",
+    "BindingIP": "*",
+    "ConfigFiles": []
+  },
+  {
+    "Name": "CIUIMVCContainer",
+    "PhysicalPath": null,
+    "Path": "D:\\Jenkins\\QA\\5XAPI\\CI_COMMONAPI\\ARCONUI\\CIUIMVCContainer",
+    "Port": 80,
+    "BindingProtocol": "http",
+    "BindingIP": "*",
+    "ConfigFiles": []
+  },
+  {
+    "Name": "DV",
+    "PhysicalPath": null,
+    "Path": "D:\\Jenkins\\QA\\5XAPI\\CI_COMMONAPI\\COMMONAPI\\DV",
+    "Port": 80,
+    "BindingProtocol": "http",
+    "BindingIP": "*",
+    "ConfigFiles": []
+  },
+  {
+    "Name": "TenantRegistration",
+    "PhysicalPath": null,
+    "Path": "D:\\Jenkins\\QA\\5XAPI\\CI_COMMONAPI\\WorkspaceAPI\\TenantRegistration",
+    "Port": 80,
+    "BindingProtocol": "http",
+    "BindingIP": "*",
+    "ConfigFiles": []
+  },
+  {
+    "Name": "DigitalVaultUI",
+    "PhysicalPath": null,
+    "Path": "D:\\Jenkins\\QA\\5XAPI\\CI_COMMONAPI\\ARCONUI\\DigitalVaultUI",
+    "Port": 80,
+    "BindingProtocol": "http",
+    "BindingIP": "*",
+    "ConfigFiles": []
+  },
+  {
+    "Name": "XWDEngine",
+    "PhysicalPath": null,
+    "Path": "D:\\Jenkins\\QA\\5XAPI\\CI_COMMONAPI\\COMMONAPI\\Engine",
+    "Port": 80,
+    "BindingProtocol": "http",
+    "BindingIP": "*",
+    "ConfigFiles": []
+  },
+  {
+    "Name": "siem",
+    "PhysicalPath": null,
+    "Path": "D:\\Jenkins\\QA\\5XAPI\\CI_COMMONAPI\\COMMONAPI\\SIEMAPI",
+    "Port": 80,
+    "BindingProtocol": "http",
+    "BindingIP": "*",
+    "ConfigFiles": []
+  },
+  {
+    "Name": "TenantRegistration_UI",
+    "PhysicalPath": null,
+    "Path": "D:\\Jenkins\\QA\\5XAPI\\CI_COMMONAPI\\ARCONUI\\TenantRegistrationUI",
+    "Port": 80,
+    "BindingProtocol": "http",
+    "BindingIP": "*",
+    "ConfigFiles": []
+  },
+  {
+    "Name": "helppageui",
+    "PhysicalPath": null,
+    "Path": "D:\\Jenkins\\QA\\5XAPI\\CI_COMMONAPI\\ARCONUI\\HelpPageUI",
+    "Port": 80,
+    "BindingProtocol": "http",
+    "BindingIP": "*",
+    "ConfigFiles": []
+  },
+  {
+    "Name": "SCIMAssetAPI",
+    "PhysicalPath": null,
+    "Path": "D:\\Jenkins\\QA\\5XAPI\\CI_COMMONAPI\\COMMONAPI\\SCIMAssetAPI",
+    "Port": 80,
+    "BindingProtocol": "http",
+    "BindingIP": "*",
+    "ConfigFiles": []
+  },
+  {
+    "Name": "SCIMAssetGroupAPI",
+    "PhysicalPath": null,
+    "Path": "D:\\Jenkins\\QA\\5XAPI\\CI_COMMONAPI\\COMMONAPI\\SCIMAssetGroupAPI",
+    "Port": 80,
+    "BindingProtocol": "http",
+    "BindingIP": "*",
+    "ConfigFiles": []
+  },
+  {
+    "Name": "SCIMDOMAINAPI",
+    "PhysicalPath": null,
+    "Path": "D:\\Jenkins\\QA\\5XAPI\\CI_COMMONAPI\\COMMONAPI\\SCIMDOMAINAPI",
+    "Port": 80,
+    "BindingProtocol": "http",
+    "BindingIP": "*",
+    "ConfigFiles": []
+  },
+  {
+    "Name": "SCIMIAMPrivilegesAPI",
+    "PhysicalPath": null,
+    "Path": "D:\\Jenkins\\QA\\5XAPI\\CI_COMMONAPI\\COMMONAPI\\SCIMIAMPrivilegesAPI",
+    "Port": 80,
+    "BindingProtocol": "http",
+    "BindingIP": "*",
+    "ConfigFiles": []
+  },
+  {
+    "Name": "SCIMLOBAPI",
+    "PhysicalPath": null,
+    "Path": "D:\\Jenkins\\QA\\5XAPI\\CI_COMMONAPI\\COMMONAPI\\SCIMLOBAPI",
+    "Port": 80,
+    "BindingProtocol": "http",
+    "BindingIP": "*",
+    "ConfigFiles": []
+  },
+  {
+    "Name": "SCIMRoleDepartmentAPI",
+    "PhysicalPath": null,
+    "Path": "D:\\Jenkins\\QA\\5XAPI\\CI_COMMONAPI\\COMMONAPI\\SCIMRoleDepartmentAPI",
+    "Port": 80,
+    "BindingProtocol": "http",
+    "BindingIP": "*",
+    "ConfigFiles": []
+  },
+  {
+    "Name": "SCIMSCHEMAAPI",
+    "PhysicalPath": null,
+    "Path": "D:\\Jenkins\\QA\\5XAPI\\CI_COMMONAPI\\COMMONAPI\\SCIMSCHEMAAPI",
+    "Port": 80,
+    "BindingProtocol": "http",
+    "BindingIP": "*",
+    "ConfigFiles": []
+  },
+  {
+    "Name": "SCIMUserAPI",
+    "PhysicalPath": null,
+    "Path": "D:\\Jenkins\\QA\\5XAPI\\CI_COMMONAPI\\COMMONAPI\\SCIMUserAPI",
+    "Port": 80,
+    "BindingProtocol": "http",
+    "BindingIP": "*",
+    "ConfigFiles": []
+  },
+  {
+    "Name": "PyCLI",
+    "PhysicalPath": null,
+    "Path": "D:\\Jenkins\\QA\\5XAPI\\CI_COMMONAPI\\WorkspaceAPI\\PYCLI",
+    "Port": 80,
+    "BindingProtocol": "http",
+    "BindingIP": "*",
+    "ConfigFiles": []
+  },
+  {
+    "Name": "KnightAnalyticsUI",
+    "PhysicalPath": null,
+    "Path": "D:\\Jenkins\\QA\\5XAPI\\CI_COMMONAPI\\ARCONUI\\KnightAnalyticsUI",
+    "Port": 80,
+    "BindingProtocol": "http",
+    "BindingIP": "*",
+    "ConfigFiles": []
+  },
+  {
+    "Name": "xdomainauth",
+    "PhysicalPath": null,
+    "Path": "D:\\Jenkins\\QA\\5XAPI\\CI_COMMONAPI\\WorkspaceAPI\\DomainAuth",
+    "Port": 80,
+    "BindingProtocol": "http",
+    "BindingIP": "*",
+    "ConfigFiles": []
+  },
+  {
+    "Name": "xsaml",
+    "PhysicalPath": null,
+    "Path": "D:\\Jenkins\\QA\\5XAPI\\CI_COMMONAPI\\WorkspaceAPI\\XSAML",
+    "Port": 80,
+    "BindingProtocol": "http",
+    "BindingIP": "*",
+    "ConfigFiles": []
+  },
+  {
+    "Name": "xoidc",
+    "PhysicalPath": null,
+    "Path": "D:\\Jenkins\\QA\\5XAPI\\CI_COMMONAPI\\WorkspaceAPI\\XOIDC",
+    "Port": 80,
+    "BindingProtocol": "http",
+    "BindingIP": "*",
+    "ConfigFiles": []
+  },
+  {
+    "Name": "PROCESSKA_API",
+    "PhysicalPath": null,
+    "Path": "D:\\Jenkins\\QA\\5XAPI\\CI_COMMONAPI\\CI_KA_ProcessAPI",
+    "Port": 80,
+    "BindingProtocol": "http",
+    "BindingIP": "*",
+    "ConfigFiles": []
+  },
+  {
+    "Name": "xssoengine",
+    "PhysicalPath": null,
+    "Path": "D:\\Jenkins\\QA\\5XAPI\\CI_COMMONAPI\\WorkspaceAPI\\SSOEngine",
+    "Port": 80,
+    "BindingProtocol": "http",
+    "BindingIP": "*",
+    "ConfigFiles": []
+  },
+  {
+    "Name": "tenantUI",
+    "PhysicalPath": null,
+    "Path": "D:\\Jenkins\\QA\\5XAPI\\CI_COMMONAPI\\ARCONUI\\TenantRegistrationUI",
+    "Port": 80,
+    "BindingProtocol": "http",
+    "BindingIP": "*",
+    "ConfigFiles": []
+  },
+  {
+    "Name": "Knight_Analytics_API",
+    "PhysicalPath": null,
+    "Path": "D:\\Jenkins\\QA\\5XAPI\\CI_COMMONAPI\\CI_KnightAnalyticsAPI",
+    "Port": 80,
+    "BindingProtocol": "http",
+    "BindingIP": "*",
+    "ConfigFiles": []
+  },
+  {
+    "Name": "SPECTION_API",
+    "PhysicalPath": null,
+    "Path": "D:\\Jenkins\\QA\\5XAPI\\CI_COMMONAPI\\CI_KA_SpectionAPI",
+    "Port": 80,
+    "BindingProtocol": "http",
+    "BindingIP": "*",
+    "ConfigFiles": []
+  }
+],
+"UIs": [
+        {
+          "SiteName": "ARCONAPIGateway",
+          "BindingProtocol": "https",
+          "BindingIP": "*",
+          "BindingPort": 443,
+          "PhysicalPath": "D:\\Jenkins\\QA\\5XAPI\\CI_COMMONAPI\\Gateway",
+          "Name": null,
+          "Url": null,
+          "HostName": "testing.arconnet.com",
+          "ConfigFiles": []
+        }
+      ],
+      "Gateway": [],
+      "MicroserviceSite": [
+        {
+          "SiteName": "ARCONMicroservicesStack",
+          "BindingProtocol": "http",
+          "BindingIP": "*",
+          "BindingPort": 80,
+          "PhysicalPath": "D:\\Jenkins\\QA\\5XAPI\\CI_COMMONAPI\\ARCONUI\\Workspace_UI",
+          "ConfigFiles": []
+        }
+      ]
+    }
+  ],
+  "Databases": [],
+  "KafkaRedisSetup": [
+    {
+      "DatabaseUser": "arcon",
+      "DatabasePassword": "pass@123",
+      "DatabaseServerIp": "10.10.2.77",
+      "DatabaseServerAppIp": "10.10.2.77",
+      "DatabasePort": "3306",
+      "CommonDbName": "commondbcoe",
+      "DbServer": "MYSQL",
+      "remoteHost": "10.10.2.77",
+      "remoteUser": "arcon",
+      "remotePassword": "pass@123",
+      "localFilePath": "D:\\ARCON\\CI\\CI_MT_10.10.000\\ansibleplaybook.zip",
+      "playbookFile": "commondb_playbook.yaml",
+      "playbookFile1": "arcon_acc_brg_ansible.yaml",
+      "user_password": "pass@123",
+      "private_ip": "10.10.2.77",
+      "public_ip": "10.10.2.77",
+      "InstTgtIp": "10.10.2.77",
+      "appDbIp": "10.10.2.77",
+      "rediskfkausername": "arcon",
+      "rediskfkaip": "10.10.2.77",
+      "rediskfkapassword": "pass@123",
+      "commonconfigfolderpath": "D:\\ARCON\\CI\\CI_MT_10.10.000\\Applications\\ARCON Web Components\\CiConfig"
+    }
+  ],
+  "Certificates": {
+    "CertificatePath": "D:\\ARCON\\CI\\certs\\wildcard_arconnet_com.pfx",
+    "Password": "admin@2009",
+    "Thumbprint": "8cd288fec18c6cce909a0d11df00451b58c77a07"
+  },
+  "envVariable": {
+    "ARCON_CI_CONFIG_PATH": "D:\\MT_CommonConfig"
+  },
+  "Prerequisite": {
+    "SystemRequirements": [
+      "Microsoft .Net Framework: 3.5 \u0026 4.7.2",
+      "Access Database Engine (x64)",
+      "VC\u002B\u002B Redistributable 2015 (x86)",
+      ".NET Core 2.6 (Hosting Bundle)",
+      ".NET Core 3.1 (Hosting Bundle)",
+      "SQL Server 2016 Enterprise and above"
+    ],
+    "General": [
+      "Ansible Installation",
+      "Setup Kafka Radis",
+      "TenantDB Setup"
+    ]
+  },
+  "TenantConfig": [],
+  "CommonDBCIModel": [],
+  "CIAMCommonDbSetup": [],
+  "CIAMAnsibleSetup": [],
+  "CIAMTenantDBSModel": []
+}

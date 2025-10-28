@@ -1,0 +1,219 @@
+Site: ARCONMicroservicesStack
+  Application: /auth
+  Physical Path: D:\Jenkins\QA\5XAPI\CI_COMMONAPI\COMMONAPI\auth
+  Application: /xsso
+  Physical Path: D:\Jenkins\QA\5XAPI\CI_COMMONAPI\WorkspaceAPI\SSO
+  Application: /xaccess
+  Physical Path: D:\Jenkins\QA\5XAPI\CI_COMMONAPI\WorkspaceAPI\Login
+  Application: /xauth
+  Physical Path: D:\Jenkins\QA\5XAPI\CI_COMMONAPI\WorkspaceAPI\Authentication
+  Application: /xservice
+  Physical Path: D:\Jenkins\QA\5XAPI\CI_COMMONAPI\WorkspaceAPI\Access
+  Application: /meta
+  Physical Path: D:\Jenkins\QA\5XAPI\CI_COMMONAPI\WorkspaceAPI\Meta
+  Application: /AccessControlAPI
+  Physical Path: D:\Jenkins\QA\5XAPI\CI_COMMONAPI\COMMONAPI\AccessControlApi
+  Application: /OnboardingAPI
+  Physical Path: D:\Jenkins\QA\5XAPI\CI_COMMONAPI\CI_OnboardingAPI
+  Application: /authentication
+  Physical Path: D:\Jenkins\QA\5XAPI\CI_COMMONAPI\WorkFlowApi\authentication
+  Application: /delegation
+  Physical Path: D:\Jenkins\QA\5XAPI\CI_COMMONAPI\WorkFlowApi\delegation
+  Application: /application
+  Physical Path: D:\Jenkins\QA\5XAPI\CI_COMMONAPI\WorkFlowApi\application
+  Application: /event
+  Physical Path: D:\Jenkins\QA\5XAPI\CI_COMMONAPI\WorkFlowApi\event
+  Application: /parameter
+  Physical Path: D:\Jenkins\QA\5XAPI\CI_COMMONAPI\WorkFlowApi\parameter
+  Application: /workflow
+  Physical Path: D:\Jenkins\QA\5XAPI\CI_COMMONAPI\WorkFlowApi\workFlow
+  Application: /level
+  Physical Path: D:\Jenkins\QA\5XAPI\CI_COMMONAPI\WorkFlowApi\level
+  Application: /samlauthentication
+  Physical Path: D:\Jenkins\QA\5XAPI\CI_COMMONAPI\WorkFlowApi\samlauthentication
+  Application: /asset
+  Physical Path: D:\Jenkins\QA\5XAPI\CI_COMMONAPI\COMMONAPI\asset
+  Application: /reportees
+  Physical Path: D:\Jenkins\QA\5XAPI\CI_COMMONAPI\COMMONAPI\reportees
+  Application: /request
+  Physical Path: D:\Jenkins\QA\5XAPI\CI_COMMONAPI\COMMONAPI\request
+  Application: /Users
+  Physical Path: D:\Jenkins\QA\5XAPI\CI_COMMONAPI\COMMONAPI\users
+  Application: /AdminAPI
+  Physical Path: D:\Jenkins\QA\5XAPI\CI_COMMONAPI\AdminSettings\AdminAPI
+  Application: /AdminUI
+  Physical Path: D:\Jenkins\QA\5XAPI\CI_COMMONAPI\AdminSettings\AdminUI
+  Application: /smDashboardApi
+  Physical Path: D:\Jenkins\QA\5XAPI\CI_COMMONAPI\COMMONAPI\smDashboardApi
+  Application: /smLobsApi
+  Physical Path: D:\Jenkins\QA\5XAPI\CI_COMMONAPI\COMMONAPI\smLobsApi
+  Application: /smRoleApi
+  Physical Path: D:\Jenkins\QA\5XAPI\CI_COMMONAPI\COMMONAPI\smRoleApi
+  Application: /smServiceApi
+  Physical Path: D:\Jenkins\QA\5XAPI\CI_COMMONAPI\COMMONAPI\smServiceApi
+  Application: /smServiceGroupApi
+  Physical Path: D:\Jenkins\QA\5XAPI\CI_COMMONAPI\COMMONAPI\smServiceGroupApi
+  Application: /smTagApi
+  Physical Path: D:\Jenkins\QA\5XAPI\CI_COMMONAPI\COMMONAPI\smTagApi
+  Application: /smUserApi
+  Physical Path: D:\Jenkins\QA\5XAPI\CI_COMMONAPI\COMMONAPI\smUserApi
+  Application: /smUserGroupApi
+  Physical Path: D:\Jenkins\QA\5XAPI\CI_COMMONAPI\COMMONAPI\smUserGroupApi
+  Application: /uagConfigureApi
+  Physical Path: D:\Jenkins\QA\5XAPI\CI_COMMONAPI\COMMONAPI\uagConfigureApi
+  Application: /uagDashboardApi
+  Physical Path: D:\Jenkins\QA\5XAPI\CI_COMMONAPI\COMMONAPI\uagDashboardApi
+  Application: /uagReportApi
+  Physical Path: D:\Jenkins\QA\5XAPI\CI_COMMONAPI\API\uagReportApi
+  Application: /uagReviewApi
+  Physical Path: D:\Jenkins\QA\5XAPI\CI_COMMONAPI\COMMONAPI\uagReviewApi
+  Application: /uagChallengeApi
+  Physical Path: D:\Jenkins\QA\5XAPI\CI_COMMONAPI\COMMONAPI\uagChallengeApi
+  Application: /CustomCommand
+  Physical Path: D:\Jenkins\QA\5XAPI\CI_COMMONAPI\COMMONAPI\CustomCommand
+  Application: /Dashboard
+  Physical Path: D:\Jenkins\QA\5XAPI\CI_COMMONAPI\COMMONAPI\XWDDashboard
+  Application: /Dependency
+  Physical Path: D:\Jenkins\QA\5XAPI\CI_COMMONAPI\COMMONAPI\Dependency
+  Application: /Envelope
+  Physical Path: D:\Jenkins\QA\5XAPI\CI_COMMONAPI\COMMONAPI\Envelope
+  Application: /Policy
+  Physical Path: D:\Jenkins\QA\5XAPI\CI_COMMONAPI\COMMONAPI\Policy
+  Application: /Rotate
+  Physical Path: D:\Jenkins\QA\5XAPI\CI_COMMONAPI\COMMONAPI\Rotate
+  Application: /Vault
+  Physical Path: D:\Jenkins\QA\5XAPI\CI_COMMONAPI\COMMONAPI\Vault
+  Application: /Downloads
+  Physical Path: D:\Jenkins\QA\5XAPI\CI_COMMONAPI\COMMONAPI\Downloads
+  Application: /Logs
+  Physical Path: D:\Jenkins\QA\5XAPI\CI_COMMONAPI\COMMONAPI\Logs
+  Application: /Metadata
+  Physical Path: D:\Jenkins\QA\5XAPI\CI_COMMONAPI\COMMONAPI\Metadata
+  Application: /reconauto
+  Physical Path: D:\Jenkins\QA\5XAPI\CI_COMMONAPI\COMMONAPI\reconauto
+  Application: /AWS
+  Physical Path: D:\Jenkins\QA\5XAPI\CI_COMMONAPI\COMMONAPI\AWS
+  Application: /Azure
+  Physical Path: D:\Jenkins\QA\5XAPI\CI_COMMONAPI\COMMONAPI\Azure
+  Application: /smLogsApi
+  Physical Path: D:\Jenkins\QA\5XAPI\CI_COMMONAPI\COMMONAPI\smLogsApi
+  Application: /RTSM
+  Physical Path: D:\Jenkins\QA\5XAPI\CI_COMMONAPI\COMMONAPI\RTSM
+  Application: /WorkflowUI
+  Physical Path: D:\Jenkins\QA\5XAPI\CI_COMMONAPI\ARCONUI\WorkflowUI
+  Application: /AMPUI
+  Physical Path: D:\Jenkins\QA\5XAPI\CI_COMMONAPI\ARCONUI\AMPUI
+  Application: /UagUi
+  Physical Path: D:\Jenkins\QA\5XAPI\CI_COMMONAPI\ARCONUI\UAGDEV_UI
+  Application: /smWEBUI
+  Physical Path: D:\Jenkins\QA\5XAPI\CI_COMMONAPI\ARCONUI\WebSMUI
+  Application: /xwdui
+  Physical Path: D:\Jenkins\QA\5XAPI\CI_COMMONAPI\ARCONUI\PasswordUI
+  Application: /ArconVideoLogs
+  Physical Path: D:\Jenkins\QA\5XAPI\CI_COMMONAPI\ARCONUI\VideoLogsUI
+  Application: /uagchallenge
+  Physical Path: D:\Jenkins\QA\5XAPI\CI_COMMONAPI\ARCONUI\CI_ChallengeUI
+  Application: /AccessControlUI
+  Physical Path: D:\Jenkins\QA\5XAPI\CI_COMMONAPI\ARCONUI\AccesscontrolUI
+  Application: /OnboardingUI
+  Physical Path: D:\Jenkins\QA\5XAPI\CI_COMMONAPI\ARCONUI\CI_Onboarding_UI
+  Application: /ApplicationLogsApi
+  Physical Path: D:\Jenkins\QA\5XAPI\CI_COMMONAPI\COMMONAPI\ApplicationLogsApi
+  Application: /ApplicationlogsUI
+  Physical Path: D:\Jenkins\QA\5XAPI\CI_COMMONAPI\ARCONUI\ApplicationlogsUI
+  Application: /smOrchestrationApi
+  Physical Path: D:\Jenkins\QA\5XAPI\CI_COMMONAPI\COMMONAPI\smOrchestration
+  Application: /AdminReports
+  Physical Path: D:\Jenkins\QA\5XAPI\CI_COMMONAPI\API\ReportsAPI
+  Application: /Reports
+  Physical Path: D:\Jenkins\QA\5XAPI\CI_COMMONAPI\API\XWDReports
+  Application: /ProvisionWebAPI
+  Physical Path: D:\AllProject\ProvisionWebAPI
+  Application: /AdminReports/downloads
+  Physical Path: D:\Jenkins\QA\5XAPI\CI_COMMONAPI\ReportsAPI\downloads
+  Application: /arconMsApi
+  Physical Path: D:\Jenkins\QA\5XAPI\CI_COMMONAPI\COMMONAPI\arconMsApi
+  Application: /WebdtCore
+  Physical Path: D:\Jenkins\QA\5XAPI\CI_COMMONAPI\COMMONAPI\WebdtCore
+  Application: /ConnectorApi
+  Physical Path: D:\Jenkins\QA\5XAPI\CI_COMMONAPI\COMMONAPI\ConnectorApi
+  Application: /CIUIMVCContainer
+  Physical Path: D:\Jenkins\QA\5XAPI\CI_COMMONAPI\ARCONUI\CIUIMVCContainer
+  Application: /DV
+  Physical Path: D:\Jenkins\QA\5XAPI\CI_COMMONAPI\COMMONAPI\DV
+  Application: /TenantRegistration
+  Physical Path: D:\Jenkins\QA\5XAPI\CI_COMMONAPI\WorkspaceAPI\TenantRegistration
+  Application: /DigitalVaultUI
+  Physical Path: D:\Jenkins\QA\5XAPI\CI_COMMONAPI\ARCONUI\DigitalVaultUI
+  Application: /XWDEngine
+  Physical Path: D:\Jenkins\QA\5XAPI\CI_COMMONAPI\COMMONAPI\Engine
+  Application: /siem
+  Physical Path: D:\Jenkins\QA\5XAPI\CI_COMMONAPI\COMMONAPI\SIEMAPI
+  Application: /TenantRegistration_UI
+  Physical Path: D:\Jenkins\QA\5XAPI\CI_COMMONAPI\ARCONUI\TenantRegistrationUI
+  Application: /helppageui
+  Physical Path: D:\Jenkins\QA\5XAPI\CI_COMMONAPI\ARCONUI\HelpPageUI
+  Application: /SCIMAssetAPI
+  Physical Path: D:\Jenkins\QA\5XAPI\CI_COMMONAPI\COMMONAPI\SCIMAssetAPI
+  Application: /SCIMAssetGroupAPI
+  Physical Path: D:\Jenkins\QA\5XAPI\CI_COMMONAPI\COMMONAPI\SCIMAssetGroupAPI
+  Application: /SCIMDOMAINAPI
+  Physical Path: D:\Jenkins\QA\5XAPI\CI_COMMONAPI\COMMONAPI\SCIMDOMAINAPI
+  Application: /SCIMIAMPrivilegesAPI
+  Physical Path: D:\Jenkins\QA\5XAPI\CI_COMMONAPI\COMMONAPI\SCIMIAMPrivilegesAPI
+  Application: /SCIMLOBAPI
+  Physical Path: D:\Jenkins\QA\5XAPI\CI_COMMONAPI\COMMONAPI\SCIMLOBAPI
+  Application: /SCIMRoleDepartmentAPI
+  Physical Path: D:\Jenkins\QA\5XAPI\CI_COMMONAPI\COMMONAPI\SCIMRoleDepartmentAPI
+  Application: /SCIMSCHEMAAPI
+  Physical Path: D:\Jenkins\QA\5XAPI\CI_COMMONAPI\COMMONAPI\SCIMSCHEMAAPI
+  Application: /SCIMUserAPI
+  Physical Path: D:\Jenkins\QA\5XAPI\CI_COMMONAPI\COMMONAPI\SCIMUserAPI
+  Application: /PyCLI
+  Physical Path: D:\Jenkins\QA\5XAPI\CI_COMMONAPI\WorkspaceAPI\PYCLI
+  Application: /KnightAnalyticsUI
+  Physical Path: D:\Jenkins\QA\5XAPI\CI_COMMONAPI\ARCONUI\KnightAnalyticsUI
+  Application: /xdomainauth
+  Physical Path: D:\Jenkins\QA\5XAPI\CI_COMMONAPI\WorkspaceAPI\DomainAuth
+  Application: /xsaml
+  Physical Path: D:\Jenkins\QA\5XAPI\CI_COMMONAPI\WorkspaceAPI\XSAML
+  Application: /xoidc
+  Physical Path: D:\Jenkins\QA\5XAPI\CI_COMMONAPI\WorkspaceAPI\XOIDC
+  Application: /PROCESSKA_API
+  Physical Path: D:\Jenkins\QA\5XAPI\CI_COMMONAPI\CI_KA_ProcessAPI
+  Application: /xssoengine
+  Physical Path: D:\Jenkins\QA\5XAPI\CI_COMMONAPI\WorkspaceAPI\SSOEngine
+  Application: /tenantUI
+  Physical Path: D:\Jenkins\QA\5XAPI\CI_COMMONAPI\ARCONUI\TenantRegistrationUI
+  Application: /Knight_Analytics_API
+  Physical Path: D:\Jenkins\QA\5XAPI\CI_COMMONAPI\CI_KnightAnalyticsAPI
+  Application: /SPECTION_API
+  Physical Path: D:\Jenkins\QA\5XAPI\CI_COMMONAPI\CI_KA_SpectionAPI
+
+Site: ACMO_PreprodPackage
+
+Site: ssoengine
+
+Site: signalr
+
+Site: ARCONAPIGateway
+
+Site: ciamGateway
+
+Site: ciamServices
+  Application: /ciamauth
+  Physical Path: D:\CiamPackage\CiamPackage\ciamServices\CiamAuthorisation
+  Application: /ciamim
+  Physical Path: D:\CiamPackage\CiamPackage\ciamServices\CiamIdentityManagement
+  Application: /ciamcm
+  Physical Path: D:\CiamPackage\CiamPackage\ciamServices\CiamConfigurationManagement
+  Application: /ciamextas
+  Physical Path: D:\CiamPackage\CiamPackage\ciamServices\CiamExternalAuthService
+  Application: /ciamem
+  Physical Path: D:\CiamPackage\CiamPackage\ciamServices\CiamEntityManagement
+  Application: /ciamextus
+  Physical Path: D:\CiamPackage\CiamPackage\ciamServices\CiamExternalUserService
+
+Site: ARCONWebDTCore
+
+Site: CI_Reports
