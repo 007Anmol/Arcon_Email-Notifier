@@ -1,0 +1,52 @@
+node('CI_MT_QA_Mysql')
+{
+	stage('cleanup') 
+	{
+        cleanWs deleteDirs: true, disableDeferredWipeout: true
+    }
+        
+    stage ('CheckOut Stage')
+	{   
+		//updateGitlabCommitStatus name: 'Check Out Stage', state: 'pending'
+		echo 'CheckOut Stage for DB'
+// 		CI_DEV_V10_AUDIT
+//      ${CI_MT_MYSQL_BRANCH}
+		git branch: '${CI_MT_QA_MYSQL_BRANCH}', credentialsId: '${gitlab}', url: 'https://repo.arconnet.com/DevOps/arconpamdb_mysql.git'
+		//updateGitlabCommitStatus name: 'Check Out Stage', state: 'success'
+	} 
+	   
+    stage ('Copy to QA Path')
+	{   
+	   bat "xcopy \"D:\\Jenkins\\workspace\\Auto_DB_Multitenancy_QA_MYSQL\\ARCOSDB\\1.SchemaChanges\" \"D:\\Jenkins\\QA\\Auto_DB_Execution\\DBScripts\\1.SchemaChanges\\\" /O /F /R /Y /I /E /H /C"
+	   bat "xcopy \"D:\\Jenkins\\workspace\\Auto_DB_Multitenancy_QA_MYSQL\\ARCOSDB\\2.Functions\" \"D:\\Jenkins\\QA\\Auto_DB_Execution\\DBScripts\\2.Functions\\\" /O /F /R /Y /I /E /H /C"
+	   bat "xcopy \"D:\\Jenkins\\workspace\\Auto_DB_Multitenancy_QA_MYSQL\\ARCOSDB\\3.Views\" \"D:\\Jenkins\\QA\\Auto_DB_Execution\\DBScripts\\3.Views\\\" /O /F /R /Y /I /E /H /C"
+	   bat "xcopy \"D:\\Jenkins\\workspace\\Auto_DB_Multitenancy_QA_MYSQL\\ARCOSDB\\4.Procedures\" \"D:\\Jenkins\\QA\\Auto_DB_Execution\\DBScripts\\4.Procedures\\\" /O /F /R /Y /I /E /H /C"
+	   bat "xcopy \"D:\\Jenkins\\workspace\\Auto_DB_Multitenancy_QA_MYSQL\\ARCOSDB\\5.DataScripts\" \"D:\\Jenkins\\QA\\Auto_DB_Execution\\DBScripts\\5.DataScripts\\\" /O /F /R /Y /I /E /H /C"
+	   bat "xcopy \"D:\\Jenkins\\workspace\\Auto_DB_Multitenancy_QA_MYSQL\\ARCOSDB\\9.Indexes\" \"D:\\Jenkins\\QA\\Auto_DB_Execution\\DBScripts\\9.Indexes\\\" /O /F /R /Y /I /E /H /C"
+	}
+	
+            
+    stage ('Updating ANB DB Name') {
+        
+        bat "D:\\Jenkins\\QA\\Auto_DB_Execution\\textReplace_ANB.bat"
+    }
+    
+    // stage ('Updating SP') {
+        
+    //     bat "D:\\Jenkins\\QA\\Auto_DB_Execution\\SP_Rename\\textReplace.bat"
+    // }
+    
+    stage('Executing ANB Database'){
+        bat "D:\\Jenkins\\QA\\Auto_DB_Execution\\db_Auto_ANB.bat"
+    }
+    
+    stage ('Updating ARCON DB Name') {
+        
+        bat "D:\\Jenkins\\QA\\Auto_DB_Execution\\textReplace_ARCON.bat"
+    }
+    
+    stage('Executing ARCON Database'){
+        
+        bat "D:\\Jenkins\\QA\\Auto_DB_Execution\\db_Auto_ARCON.bat"
+    }
+}
